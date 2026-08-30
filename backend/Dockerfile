@@ -1,7 +1,7 @@
 FROM python:3.9-slim
 
 #Set the working directory inside the container
-WORKDIR/app
+WORKDIR/Learner_predictor_api
 
 #Copy all files from current directory to the containers working directory
 COPY . .
